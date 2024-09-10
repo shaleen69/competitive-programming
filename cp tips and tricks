@@ -1,0 +1,110 @@
+#include<bits/stdc++.h>
+#define MOD 1000000007;
+#define int long long int
+using namespace std;
+//int rset=num&(~(num-1));
+
+//sort according to second element in pair by passing comp function
+
+//bool comp(pair<int,int>a,pair<int,int>b)
+//{
+//    return a.second<b.second;
+//}
+
+//sort according to greater second element if first element is same
+
+//bool comp(pair<int,int>a,pair<int,int>b)
+//{
+     // if(a.first==b.first)
+//    return a.second>b.second;
+//}
+
+//compare bits of two integer a and b
+//for(int i=0;i<32;i++)
+//{
+//     if(((a>>i)&1)!=((b>>i)&1))
+//     {
+//          count++;
+//     }
+//}
+
+
+// euclid algorithm for gcd and lcm 
+//int gcd(int a,int b)
+//{
+//    if(a%b==0) 
+//    return b;
+//    return gcd(b,a%b);
+//}
+
+
+ //int orangesRotting(vector<vector<int>>& grid) {
+  //      int n=grid.size();
+  //      int m=grid[0].size();
+  //      queue<pair<pair<int,int>,int>>q;
+ //       vector<vector<int>>vis(n,vector<int>(m,0));
+ //       for(int i=0;i<n;i++)
+ //        {
+  //          for(int j=0;j<m;j++)
+  //          {
+  //              if(grid[i][j]==2)
+  //              {
+  //                  q.push({{i,j},0});
+  //                  vis[i][j]=1;
+  //              }
+  //          }
+  //      }
+  //      int time=0;
+  //      int drow[]={-1,0,+1,0};
+  //      int dcol[]={0,1,0,-1};
+  //      int level=-1;
+   //     while(!q.empty())
+  //      {
+   //         int size=q.size();
+   //         while(size--)
+   //         {
+   //            int r=q.front().first.first;
+   //            int c=q.front().first.second;
+   //            int t=q.front().second;
+    //           q.pop();
+   //            for(int i=0;i<4;i++)
+   //            {
+   //             int nrow=r+drow[i];
+   //             int ncol=c+dcol[i];
+    //            if(nrow>=0 && nrow<n && ncol>=0 && ncol<m && grid[nrow][ncol]==1 && vis[nrow][ncol]==0)
+   //             {
+   //                 q.push({{nrow,ncol},t+1});
+   //                 vis[nrow][ncol]=1;
+    //            }
+    //           }
+    //        }
+    //        level++;
+   //     }
+  //      for(int i=0;i<n;i++)
+  //      {
+  //          for(int j=0;j<m;j++)
+  //          {
+ //               if(grid[i][j]==1 && vis[i][j]==0)
+  //              {
+  //                  return -1;
+ //               }
+ //           }
+ //       }
+ //       return max(0,level);
+ ///   }
+
+
+
+//lcm(a,b)=(a*b)/gcd(a*b)
+int32_t main()
+{
+    int t;
+    cin>>t;
+    while(t--)
+    {
+       //write code
+    }
+    
+}
+        
+        
